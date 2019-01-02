@@ -1,4 +1,4 @@
-#Code Book - Summary of Human Activity Recognition Using Smartphones Dataset V1.0
+# Code Book - Summary of Human Activity Recognition Using Smartphones Dataset V1.0
 
 The raw input data is tidied up as follows:
 
@@ -24,10 +24,10 @@ Write the resulting tidy data to a file called 'tidyData.txt'.
 
 The above steps are encapsulated in the R script run_analysis.R.
 
-##Data Dictionary
+## Data Dictionary
 
 * activity name
-       * a string denoting the activity performed, one of WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, and LAYING
+    * a string denoting the activity performed, one of WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, and LAYING
 * subject
 	* a number between 1 and 30, denoting the subject that underwent the test
 * mean of X of body acceleration signal in time
