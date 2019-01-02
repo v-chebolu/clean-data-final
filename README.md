@@ -1,5 +1,4 @@
-# Summary of Human Activity Recognition Using Smartphones Dataset
-## Version 1.0
+# Summary of Human Activity Recognition Using Smartphones Dataset, Version 1.0
 
 Raw input data was taken from the "Human Activity Recognition Using Smartphones Dataset Version 1.0" project of the UCI Machine Learning Repository. The zip archive of the data was available at the following URL for this assignment:
 
@@ -21,7 +20,7 @@ An R script is developed for tidying up the data.
 
 First, the features of interest are identified. These are all the features with 'mean()' or 'std()' in their name. Feature names are tidied up to eliminate the characters '(', ')' and to replace '-' with '\_'.
 
-The raw data files are read from the train and test subdirectories, and only the features of interest are selected from it.
+The raw data files are read from the train and test subdirectories, and only the features of interest are selected from them.
 
 The activity code label, and the subject variables are added to the raw test and training data. The activity code variable in raw data is then mapped to activity name. 
 
